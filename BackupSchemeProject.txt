@@ -1,0 +1,12 @@
+Backup Scheme
+(Make a local backup scheme using rsync. You can try to compress it and schedule it using crontab.)
+
+
+Git initialized
+
+philippe@phil:~/Eduonix/DevOps E-Degree/00-DevOpsFoundation$ git config --global user.name "ForceOrange"
+philippe@phil:~/Eduonix/DevOps E-Degree/00-DevOpsFoundation$ git config --global user.email "plugitconsulting@gmail.com"
+philippe@phil:~/Eduonix/DevOps E-Degree/00-DevOpsFoundation$ git config --global --list
+user.name=ForceOrange
+user.email=plugitconsulting@gmail.com
+
