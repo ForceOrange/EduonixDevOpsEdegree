@@ -27,12 +27,10 @@ rsync $LOCALARCHIVE $2
 if [ $? -eq 0 ]
 then
   echo "Successfully executed local backup in $LOCALDESTINATION."
+  rm -rf $LOCALARCHIVE ###### CLEANUP #########
   exit 0
 else
   echo "Problem encountered while backup up. Do verify the usage : ./BackupScheme.sh LOCALSOURCE LOCALDESTINATION" >&2
+  rm -rf $LOCALARCHIVE 	###### CLEANUP #########
   exit 1
 fi
-
-###### CLEANUP #########
-
-rm -rf $LOCALARCHIVE
