@@ -1,2 +1,0 @@
-Backup Scheme
-(Make a local backup scheme using rsync. You can try to compress it and schedule it using crontab.)
